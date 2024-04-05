@@ -8,4 +8,12 @@ public class Employee
         }}
     }
     public string Email{get;set;}
+    public int Age{get;set;}
+    public string Email{get;set
+    {
+        if(value.Contains("@"))
+        {
+            Email = value;
+        }
+    }}
 }
